@@ -1,0 +1,19 @@
+<section>
+  <mat-card>
+    <mat-card-content>
+      <form>
+        <mat-form-field style="width: 100%;">
+          <input matInput placeholder="Nome" [(ngModel)]="name" name="nomecliente">
+        </mat-form-field>
+        <mat-form-field style="width: 100%;">
+          <input matInput placeholder="Sobre nome" [(ngModel)]="sobreNome" name="sobreNomeCliente">
+        </mat-form-field>
+      </form>
+    </mat-card-content>    
+    
+    <mat-card-actions>
+      <p>{{name}}</p>
+      <p>{{sobreNome}}</p>
+    </mat-card-actions>
+  </mat-card>
+</section>
